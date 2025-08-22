@@ -1,12 +1,30 @@
-# React + Vite
+MediMage (Doctor Appointment System)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Doctor Appointment Booking System built using React + Vite on the frontend.
+It provides an easy way for patients to book appointments with doctors and for doctors to manage their schedules.
+<img width="1877" height="905" alt="image" src="https://github.com/user-attachments/assets/97e74ac3-7e07-43a2-8d21-b66c31102c4d" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack
 
-## Expanding the ESLint configuration
+Frontend: React, Vite, Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Authentication: Clerk 
+
+Other Tools: Git, ESLint, dotenv
+
+✨ Features
+
+🔐 User authentication (Login/Signup)
+
+👩‍⚕️ Doctor registration & profile management
+
+📅 Book, update, and cancel appointments
+
+📊 Dashboard for patients and doctors
+
+📱 Fully responsive UI
