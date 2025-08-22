@@ -9,16 +9,20 @@ import Contact from './assets/Components/Pages/Contact';
 import About from './assets/Components/Pages/About';
 import ProtectedRoute from './assets/Components/ProtectedRoute';
 import DoctorList from './assets/Components/Pages/Doctors';
+import Footer from './assets/Components/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/DoctorList" element={<DoctorList />} />
+        
+
 
         {/* Protected Dashboard */}
         <Route
@@ -30,6 +34,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </>
   );
 }
