@@ -2,14 +2,14 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // Import your components from your project folder
-import Navbar from './assets/Components/Navbar';
+import Navbar from './assets/Layout/Navbar';
 import Home from './assets/Components/Pages/Home';
 import Dashboard from './assets/Components/Pages/Dashboard';
 import Contact from './assets/Components/Pages/Contact';
 import About from './assets/Components/Pages/About';
-import ProtectedRoute from './assets/Components/ProtectedRoute';
+import ProtectedRoute from './assets/Layout/ProtectedRoute';
 import DoctorList from './assets/Components/Pages/Doctors';
-import Footer from './assets/Components/Footer';
+import Footer from './assets/Layout/Footer';
 
 function App() {
   return (
