@@ -32,6 +32,7 @@ lerna-debug.log*
 # Also ignore backend-specific env
 medimaga-backend/.env
 
+
 # ========================
 # Editor / OS settings
 # ========================
